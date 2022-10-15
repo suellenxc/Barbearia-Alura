@@ -1,0 +1,119 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+    
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+nav a{
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #C78C19;
+    text-decoration:underline ;
+    }
+.box{
+        width: 940px;
+        /*para centralizar a div*/
+        position: relative;
+        margin: 0 auto;
+}nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+.produtos li:hover{
+    border-color:#C78C19;
+    }
+    .produtos li:active{
+        border-color:#088C19;
+    }
+    .produtos li:hover h2{
+        font-size: 34px;
+    }
+    footer{
+        text-align: center;
+        background: url(bg.jpg);
+        padding: 40px 0 0;
+    }
+    .copyright{
+        color:#FFFFFF;
+        font-size: 13px;
+        margin:20px 0 0;
+    }
+    main{
+        width: 940px;
+        margin:0 auto;
+    }
+    form{
+        margin:40 px 0;
+    }
+    form label, form legend {
+        display:block;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+    .checkbox{
+        margin: 20px 0;
+    }
+    .input-padrao{
+        display:block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width:50%;
+    }
+    .enviar{
+    width: 40%;
+    padding:15px 0;
+    background: darkviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border:none;
+    border-radius:5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 15px 0;
+    }
+    .enviar:hover {
+        background: violet;
+        transform: scale(1.2);
+        /*transform: scale(1.2) rotate(70deg)*/
+    }
+    table{
+        margin: 20px 0 40px;
+    }
+    thead{
+        background: #555555;
+        color: white;
+        font-weight: bold;
+    }
+    td, th{
+        border: 1px solid #000000;
+        padding: 8px 15px ;
+    }
+    @media screen and (max-width: 480px){
+        .box, main, form, .enviar {
+            width: auto;
+        }
+        
+    }
+    /*Nesta aula, aprendemos:
+
+A criar uma tabela HTML
+A tag table, que representa a tabela
+A tag tr, que representa a linha da tabela
+A tag td, que representa a célula da tabela
+A tag thead, que representa o cabeçalho da tabela
+A tag tbody, que representa o corpo da tabela
+A tag th, que representa a célula do cabeçalho da tabela
+A tag tfoot, que representa o rodapé da tabela
+A estilizar a tabela
+*/
+
